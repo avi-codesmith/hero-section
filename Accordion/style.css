@@ -1,0 +1,74 @@
+/* DEFAULT CHANGES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -----------------CSS------------------ */
+
+.accordion {
+  width: 40%;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 22px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 20px;
+}
+.heading_number {
+  color: #999;
+}
+.heading {
+  color: #999;
+}
+.svg_icon {
+  height: 45px;
+  width: 45px;
+  stroke: #999;
+  fill: #999;
+}
+.content_parent {
+  display: none;
+  visibility: hidden;
+  grid-column: 2/3;
+}
+.hidden_content {
+  color: #333;
+  font-size: 18px;
+  font-weight: 550;
+  padding: 20px 20px 0 0;
+  line-height: 1.5;
+}
+.list {
+  color: #666;
+  font-size: 16px;
+  font-weight: 550;
+  padding: 20px 20px 0 20px;
+  line-height: 1.6;
+}
+
+/* ----------------------------HOVER PART------------------------------- */
+
+.accordion:hover .content_parent {
+  display: block;
+  visibility: visible;
+}
+.svg_icon:hover {
+  cursor: pointer;
+}
+.accordion:hover .svg_icon {
+  transform: rotate(180deg);
+  stroke: #087f5b;
+  fill: #087f5b;
+}
+.accordion:hover .heading {
+  color: #087f5b;
+}
+
+.accordion:hover .heading_number {
+  color: #087f5b;
+}

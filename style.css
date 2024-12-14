@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+::selection {
+  background-color: #999;
+  color: #f7f7f7;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+header {
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.8),
+      rgba(34, 34, 34, 0.7)
+    ),
+    url("food.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.header_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+.inner_container {
+  width: 50%;
+}
+
+nav {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+h1 {
+  font-size: 52px;
+  margin-bottom: 32px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+.btn:link,
+.btn:visited {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #e67e22;
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 9px;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 44px;
+  margin-bottom: 48px;
+}
+
+section {
+  padding: 96px 0;
+  background-color: #f7f7f7;
+  color: #444;
+}
