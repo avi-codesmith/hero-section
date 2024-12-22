@@ -1,6 +1,6 @@
 # About Hero Section
 
-## This is hero-section of food website which make your work easier
+## This is hero-section of food website.
 
 ## [Click to watch the hero Section](https://hero-section-food.netlify.app//)
 
